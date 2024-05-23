@@ -13,8 +13,8 @@ body{
 
 #calculator table{
     border-collapse: collapse;
-    height: 400px;
-    width: 400px;
+    height: 30rem;
+    width: 30rem;
 }
 
 #calculator button, #calculator input{
@@ -70,4 +70,11 @@ body{
 #calculator button.operation#equal:hover, 
 #calculator button.operation#clear:hover{
     background: rgb(34, 139, 139);
+}
+
+@media (max-width: 500px) {
+    #calculator table{
+        width: 20rem;
+        height: 20rem;
+    }
 }
